@@ -1,6 +1,5 @@
 # CS50 Duck Debugger Landing Page
 
-#### Video Demo: [Coming Soon]
 
 #### Description:
 
