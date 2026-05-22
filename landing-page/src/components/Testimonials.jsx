@@ -4,19 +4,19 @@ const testiMonials = [
     {
         name: "Vibgyor",
         batch: "CS50 2023",
-        image: "/vibgyor.jpg",
+        image: `${import.meta.env.BASE_URL}vibgyor.jpg`,
         content: "The CS50 Rubber Duck is a game-changer for CS50 students. It provides a unique and interactive way to debug code, making the learning process more engaging and effective. The AI's ability to guide students through their coding challenges without giving direct answers is truly impressive. It's like having a personal coding mentor available 24/7! Thankyou professor Malan and the CS50 team!",
     },
     {
         name: "Kiwi",
         batch: "CS50 2023",
-        image: "/kiwi.jpg",
+        image: `${import.meta.env.BASE_URL}kiwi.jpg`,
         content: "The CS50 Rubber Duck is a game-changer for CS50 students. It provides a unique and interactive way to debug code, making the learning process more engaging and effective. The AI's ability to guide students through their coding challenges without giving direct answers is truly impressive. It's like having a personal coding mentor available 24/7! Thankyou professor Malan and the CS50 team!",
     },
     {
         name: "Panda",
         batch: "CS50 2023",
-        image: "/panda.jpg",
+        image: `${import.meta.env.BASE_URL}panda.jpg`,
         content: "The CS50 Rubber Duck is a game-changer for CS50 students. It provides a unique and interactive way to debug code, making the learning process more engaging and effective. The AI's ability to guide students through their coding challenges without giving direct answers is truly impressive. It's like having a personal coding mentor available 24/7! Thankyou professor Malan and the CS50 team!",
     }
 ]

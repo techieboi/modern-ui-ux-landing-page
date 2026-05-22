@@ -4,25 +4,25 @@ const features = [
     {
         title: "AI-Powered Debugger (cs50.ai)",
         description: "An AI tool based on OpenAI's GPT-4, integrated into Visual Studio Code (cs50.dev) to help students troubleshoot code, explain concepts, and provide 24/7, one-on-one tutoring.",
-        image: "/images.jpeg",
+        image: `${import.meta.env.BASE_URL}images.jpeg`,
         imagePosition: "left",
     },
     {
         title: "Global Reach",
         description: "The tool has been utilized by over 200,000 students and teachers worldwide.",
-        image: "/images-2.jpeg",
+        image: `${import.meta.env.BASE_URL}images-2.jpeg`,
         imagePosition: "right",
     },
     {
         title: "Duck Around the World Campaign",
         description: "CS50 has installed massive physical rubber duck debuggers in major global cities to promote computer science education.",
-        image: "/images-3.jpeg",
+        image: `${import.meta.env.BASE_URL}images-3.jpeg`,
         imagePosition: "left",
     },
     {
         title: "Pedagogical Goals",
         description: "The AI is designed to guide students rather than provide direct answers, acting as a \"pedagogical guardrail\".",
-        image: "/images-4.jpeg",
+        image: `${import.meta.env.BASE_URL}images-4.jpeg`,
         imagePosition: "right",
     },
 ]
