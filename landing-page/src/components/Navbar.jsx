@@ -11,7 +11,7 @@ export default function Navbar({ scrolled }) {
                 <div className="flex items-center space-x-2 group cursor-pointer">
                     <div>
                         <img 
-                        src="/ddb50.gif" 
+                        src={`${import.meta.env.BASE_URL}ddb50.gif`} 
                         alt="Duck" 
                         className="h-6 w-6 sm:w-8 sm:h-8" />
                     </div>
